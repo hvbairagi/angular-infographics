@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DashboardService } from 'src/app/modules/dashboard.service';
 
 @Component({
   selector: 'app-default',
