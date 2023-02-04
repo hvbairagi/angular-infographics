@@ -13,7 +13,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatListModule } from '@angular/material/list';
 
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { RouterModule } from '@angular/router';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { CardComponent } from './widgets/card/card.component';
@@ -34,7 +33,6 @@ import { PieComponent } from './widgets/pie/pie.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    FlexLayoutModule,
     MatMenuModule,
     MatListModule,
     RouterModule,

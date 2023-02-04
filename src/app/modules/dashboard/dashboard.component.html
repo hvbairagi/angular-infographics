@@ -8,13 +8,8 @@
 
 <br />
 
-<div
-  fxLayout="row"
-  fxLayoutAlign="space-between center"
-  fxLayoutGap="20px"
-  class="stats-cards"
->
-  <mat-card fxFlex="25">
+<div class="stats-cards display-flex">
+  <mat-card style="flex-grow: 1">
     <app-widget-card
       label="New Users"
       total="12k"
@@ -23,7 +18,7 @@
     ></app-widget-card>
   </mat-card>
 
-  <mat-card fxFlex="25">
+  <mat-card style="flex-grow: 1">
     <app-widget-card
       label="Users retention"
       total="10k"
@@ -32,7 +27,7 @@
     ></app-widget-card>
   </mat-card>
 
-  <mat-card fxFlex="25">
+  <mat-card style="flex-grow: 1">
     <app-widget-card
       label="New engagement"
       total="8k"
@@ -41,7 +36,7 @@
     ></app-widget-card>
   </mat-card>
 
-  <mat-card fxFlex="25">
+  <mat-card style="flex-grow: 1">
     <app-widget-card
       label="Refferal"
       total="6k"
@@ -57,8 +52,8 @@
 
 <br />
 
-<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
-  <div fxFlex="60">
+<div class="stats-cards display-flex">
+  <div style="flex-grow: 1">
     <div class="mat-elevation-z8">
       <table mat-table [dataSource]="dataSource">
         <!-- Position Column -->
@@ -95,7 +90,7 @@
       ></mat-paginator>
     </div>
   </div>
-  <div fxFlex="40">
+  <div style="flex-grow: 0">
     <app-widget-pie [data]="pieChart"></app-widget-pie>
   </div>
 </div>
